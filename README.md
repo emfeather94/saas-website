@@ -57,9 +57,7 @@ There should be a significant example of everything we’ve learned this term in
 
 - A `<form>` that submits to Formspree, with all the appropriate tags.
 
-### Only `pricing.html`
 
-*Doesn’t have any specific requirements, but still must fulfill the general requirements.*
 
 ### CSS files
 
