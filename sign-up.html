@@ -2,7 +2,11 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>adminu tour page</title>
+  <title>adminu sign-up page</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
@@ -11,105 +15,51 @@
       <a>
       <img>
       <li>
-        <ul>Tour</ul>
-        <ul>Sign up</ul>
+        <ul><a href="index.html">Home</a></ul>
+        <ul><a href="tour.html">Tour</a></ul>
+        <ul><a href="sign-up.html">Sign up</a></ul>
       </li>
     </nav>
-    <section class="banner">
-
-      <img>
-
-      <h2>Keeping U Organized</h2>
-      <p>You have a lot on the go. We want to help.  adminu. makes sure that all the little details for your businesses finances, HR files and planning are taken care of with ease.</p>
-
-    </section>
   </header>
 
   <main>
-    <section class="employees">
-      <h3>Employee Tracking</h3>
-      <p>For self-starting firms and individual employees at larger firms to track their own HR and finance information. This platform allows you to take charge of your own filing, financing and scheduling.</p>
+    <section class="contact pad-t-2 pad-b-2">
+      <div class="max-length">
+        <h1>Give us a try. U won't regret it.</h1>
 
-      <div>
-        <i>
-        <h4>Personal</h4>
-        <li>
-          <ul>Vacation requests</ul>
-          <ul>Benefit tracking</ul>
-          <ul>Performance reviews</ul>
-        </li>
+        <form class="push-0" method="POST" action="">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="example.name@algonquinlive.com" name="email" required>
+          </div>
+          <div class="push">
+            <label for="username">Username</label>
+            <input id="username" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" required>
+          </div>
+          <div class="push">
+            <label for="confirm">*Confirm Password</label>
+            <input id="confirm" required>
+          </div>
 
-        <i>
-        <h4>Finances</h4>
-        <li>
-          <ul>Pay stubs</ul>
-          <ul>Taxes</ul>
-          <ul>Insurance</ul>
-        </li>
-
-        <i>
-        <h4>Scheduling</h4>
-        <li>
-          <ul>Calendars</ul>
-          <ul>Personal email</ul>
-          <ul>Performance reviews</ul>
-        </li>
-
-        <i>
-        <h4>Clients</h4>
-        <li>
-          <ul>Current projects</ul>
-          <ul>Client information</ul>
-          <ul>Contracts</ul>
-        </li>
+          <div>
+            <button class="btn btn-light mega" type="submit">Join Now</button>
+          </div>
+        </form>
       </div>
     </section>
-
-    <section class="management">
-      <h3>Manage effectively</h3>
-      <p>Helping management keep track of their growing businesses. Employees will still have access to their own information, while management can oversee the larger picture tasks, such as taxes, finding new hires and tracking ongoing projects.</p>
-
-      <div>
-        <i>
-        <h4>Finances</h4>
-        <li>
-          <ul>Payroll</ul>
-          <ul>Taxes</ul>
-        </li>
-
-        <i>
-        <h4>Scheduling</h4>
-        <li>
-          <ul>Employee time sheets</ul>
-          <ul>Company events</ul>
-          <ul>Corporate meetings</ul>
-        </li>
-
-        <i>
-        <h4>New hires</h4>
-        <li>
-          <ul>Postings</ul>
-          <ul>Resumes</ul>
-          <ul>Interviews</ul>
-        </li>
-
-        <i>
-        <h4>Employees</h4>
-        <li>
-          <ul>Training</ul>
-          <ul>Records</ul>
-          <ul>Contracts</ul>
-        </li>
-      </div>
-    </section>
-
-    <btn>Choose your plan</btn>
-
-    <footer>
-      <small>(c)adminu.</small>
-    </footer>
-
   </main>
+
+  <footer>
+    <small>(c)adminu.</small>
+  </footer>
 
 </body>
 </html>
