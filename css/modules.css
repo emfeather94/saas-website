@@ -763,7 +763,7 @@ optgroup {
 
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: .54;
+  opacity: .5;
 }
 
 ::-webkit-file-upload-button {
@@ -1032,13 +1032,14 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #56BDAC;
+  background-color: #00A69B;
   border-radius: 4px;
-  border: 3px solid #56BDAC;
+  border: 3px solid #00A69B;
   color: #fff;
   font: inherit;
   text-decoration: none;
   text-transform: none;
+  font-weight: bold;
 }
 
 button::-moz-focus-inner {

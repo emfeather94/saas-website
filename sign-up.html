@@ -8,25 +8,32 @@
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <nav>
-      <a>
-      <img>
-      <li>
-        <ul><a href="index.html">Home</a></ul>
-        <ul><a href="tour.html">Tour</a></ul>
-        <ul><a href="sign-up.html">Sign up</a></ul>
-      </li>
-    </nav>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <nav class="island-1-2">
+          <div class="unit xs-1 s-1 m-1-4 l-1-4">
+            <p class="logo">adminu.</p>
+          </div>
+          <ul class="unit xs-1 s-1 m-1-2 l-1-2 list-group-inline text-right block">
+            <li><a class="link-box block gutter" href="index.html">Home</a></li>
+            <li><a class="link-box block gutter" href="tour.html">Tour</a></li>
+            <li><a class="link-box block gutter" href="sign-up.html">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
     <section class="contact pad-t-2 pad-b-2">
       <div class="max-length">
-        <h1>Give us a try. <span class="u">U</span> won't regret it.</h1>
+        <h1 class="push-0 text-center">Give us a try.</h1>
+        <h1 class="text-center"><span class="u">U</span> won't regret it.</h1>
 
         <form class="push-0" method="POST" action="">
           <div class="push">
@@ -50,8 +57,10 @@
             <input id="confirm" required>
           </div>
 
-          <div>
-            <button class="btn btn-light mega" type="submit">Join Now</button>
+          <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 center-content-vertical island">
+            <button>
+              <a class="link-box text-center" href="tour.html">Submit</a>
+            </button>
           </div>
         </form>
       </div>

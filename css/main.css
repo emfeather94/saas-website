@@ -1,21 +1,33 @@
 html {
   font-family: 'Montserrat', sans-serif;
+  color: #234148;
 }
 
 body {
   margin: 0;
 }
 
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: #00A69B;
+}
+
+.img-flex {
+  display: block;
+  width: 130%;
+  overflow: hidden;
+}
+
 nav {
-  background-color: #274850;
+  background-color: #234148;
 }
 
 .u {
-  color: #EBBD20;
+  color: #DBA239;
 }
 
 footer {
-  background-color: #274850;
+  background-color: #234148;
   color: #FFF;
 }
 
@@ -25,4 +37,8 @@ footer {
 
 .link-box {
   color: #FFFFFF;
+}
+
+label {
+  color: #234148;
 }
