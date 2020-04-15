@@ -102,3 +102,20 @@ Below is the rubric of expectations for this project. **You will be assigned a l
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit for grades using Markbot.
 
 **When you submit to Progressinator, you’ll see a grey checkmark that shows the project was handed in.** You’ll still have to write a *Request for Grade* and the teacher will still be grading it personally.
+
+
+
+
+<section>
+  <h2>Find a plan that is right for U.</h2>
+  <p>We offer plans to meet the needs of firms ranging from self-employed to corporate. Don’t believe us? Try it for free!</p>
+
+  <i><h4>Basic</h4>
+  <i><h4>Professional</h4>
+  <i><h4>Gold</h4>
+
+    <div class="btn">
+      <a class="link-box" href="tour.html">Sign up!</a>
+    </div>
+
+</section>
