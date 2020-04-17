@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>adminu sign-up page</title>
   <link href="css/modules.css" rel="stylesheet">
+  <<link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,20 +13,21 @@
 </head>
 <body>
 
-  <header>
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <nav class="island-1-2">
-          <div class="unit xs-1 s-1 m-1-4 l-1-4">
-            <p class="logo">adminu.</p>
-          </div>
-          <ul class="unit xs-1 s-1 m-1-2 l-1-2 list-group-inline text-right block">
-            <li><a class="link-box block gutter" href="index.html">Home</a></li>
-            <li><a class="link-box block gutter" href="tour.html">Tour</a></li>
-            <li><a class="link-box block gutter" href="sign-up.html">Sign Up</a></li>
-          </ul>
-        </nav>
+  <header class="push-2">
+
+    <div class="grid grid-middle island">
+
+      <div class="unit logo xs-1 s-1 m-1-4 l-1-4 text-center">
+        <h1 class="unit push-none">admin<span class="u">u.</span></h1>
       </div>
+
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4 nav-links text-center">
+        <ul class="unit nav-list push-none list-group-inline pad-t-1-2 pad-b-1-2">
+          <li><a class="unit nav-lb link-box gutter-1-2" href="index.html">Home</a></li>
+          <li><a class="unit nav-lb link-box gutter-1-2" href="tour.html">Tour</a></li>
+          <li><a class="unit nav-lb link-box gutter-1-2" href="sign-up.html">Sign Up</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -68,9 +70,13 @@
   </main>
 
   <footer>
-    <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 center-content-vertical">
-      <small class="not-italic text-center island">© adminu.</small>
-    </div>
+
+        <div class="grid grid-middle">
+          <div class="unit xs-1 s-1 m-1 l-1 island text-center">
+            <small class="unit not-italic">© adminu.</small>
+          </div>
+        </div>
+
   </footer>
 
 </body>
