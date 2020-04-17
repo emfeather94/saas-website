@@ -119,3 +119,20 @@ Drop this folder into your Markbot application. Make sure to fix all the errors.
     </div>
 
 </section>
+
+
+SCRAPS
+
+<header class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 grid-middle island-1-2">
+      <div class="unit xs-1 s-1 m-1-4 l-1-4">
+        <h1 class="unit logo text-center yotta push-1-2">admin<span class="u">u.</span></h1>
+      </div>
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4">
+        <ul class="unit list-group-inline push-1-4 text-center">
+          <li><a class="link-box block gutter" href="index.html">Home</a></li>
+          <li><a class="link-box block gutter" href="tour.html">Tour</a></li>
+          <li><a class="link-box block gutter" href="sign-up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>

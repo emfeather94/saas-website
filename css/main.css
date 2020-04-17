@@ -7,9 +7,17 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #234148;
+}
+
 .logo {
   font-family: 'Pacifico', cursive;
   color: #00A69B;
+}
+
+.u {
+  color: #DBA239;
 }
 
 .img-flex {
@@ -17,17 +25,14 @@ body {
   width: 130%;
 }
 
-header {
-  background-color: #234148;
-}
-
-.u {
-  color: #DBA239;
-}
 
 footer {
   background-color: #234148;
   color: #FFF;
+}
+
+.link-box:hover {
+  color: #DBA239;
 }
 
 .btn {
@@ -43,13 +48,13 @@ label {
 }
 
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   .logo {
     text-align: left;
   }
 
-  nav {
+  .list-group-inline {
     text-align: right;
   }
 
