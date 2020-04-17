@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>adminu homepage</title>
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,33 +12,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="push=0">
 
-  <header class="grid grid-middle push-0">
-    <div class="unit xs-1 s-1 m-1-4 l-1-4 text-center island-1-2">
-      <h1 class="unit logo push-none yotta">admin<span class="u">u.</span></h1>
-    </div>
-    <nav class="unit xs-1 s-1 m-3-4 l-3-4">
-      <ul class="unit push-none list-group-inline">
-        <li><a class="unit link-box island-1-2" href="index.html">Home</a></li>
-        <li><a class="unit link-box island-1-2" href="tour.html">Tour</a></li>
-        <li><a class="unit link-box island-1-2" href="sign-up.html">Sign Up</a></li>
-      </ul>
-    </nav>
+  <header class="push-2">
 
-    <div class="grid text-center">
-      <div class="unit relative">
-        <img class="img-flex valign-middle" src="images/banner-home.jpg" alt="laptop-fruit">
+    <div class="grid grid-middle island">
+
+      <div class="unit logo xs-1 s-1 m-1-4 l-1-4 text-center">
+        <h1 class="unit push-none">admin<span class="u">u.</span></h1>
       </div>
-      <div class="unit absolute pin-center">
-        <section class="banner island">
-          <h1 class="xs-1 s-1 m-1-2 l-1-2">Achieving more, for <span class="u">U.</span></h1>
-          <p class="unit xs-1 s-1 m-1-2 l-1-2 giga">Letting designers get back to designing</p>
 
-          <div class="unit xs-1 s-1 m-3-4 l-3-4 btn">
-            <a class="link-box" href="tour.html">Free trial</a>
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4 nav-links text-center">
+        <ul class="unit nav-list push-none list-group-inline pad-t-1-2 pad-b-1-2">
+          <li><a class="unit nav-lb link-box gutter-1-2" href="index.html">Home</a></li>
+          <li><a class="unit nav-lb link-box gutter-1-2" href="tour.html">Tour</a></li>
+          <li><a class="unit nav-lb link-box gutter-1-2" href="sign-up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="grid grid-middle text-center chop">
+
+      <div class="unit xs-1 s-1 m-1 l-1 relative">
+        <img class="img-flex banner-img valign-middle" src="images/banner-home.jpg" alt="laptop-fruit">
+      </div>
+
+      <div class="unit xs-1 s-3-4 m-3-4 l-3-4 absolute pin-center">
+        <div class="banner island-1-4">
+          <div class="unit">
+            <h1 class="yotta push-0">Achieving more,</h1>
+            <h1 class="yotta">for <span class="u">U.</span></h1>
+            <p class="unit xs-1 s-3-4 m-3-4 l-3-4 giga push-2 pad-b">Letting designers get back to designing</p>
           </div>
-        </section>
+
+          <div class="grid grid-middle">
+            <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+              <button>
+                <a class="link-box text-center" href="sign-up.html">Free trial</a>
+              </button>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -45,99 +61,131 @@
 
   <main>
     <section class="grid">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 max-length text-center island">
-        <h2>Offering the best services.</h2>
-        <p>We are an online platform for local design firms that help organize HR files and business finances by allowing users to track and manage current or new employee information.</p>
-      </div>
 
-      <div class="unit xs-1 s-1 m-1-1 l-1-1 max-length island"
-        <div class="unit xs-1 s-1 m-1-2 l-1-2">
-          <h4>Personal Access</h4>
-          <p class="push-0">Features that will allow each employee to view their own job progress including:</p>
-        </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 max-legth island">
-          <ul class="unit list-group">
-            <li class="push-0">Personal growth</li>
-            <li class="push-0">Banking information</li>
-            <li class="push-0">Work availability</li>
-            <li class="push-0">Vacation requests</li>
-            <li class="push-0">Benefit tracking</li>
-            <li class="push-0">Performance reviews</li>
-          </ul>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 max-length text-center island push-0">
+
+        <div class="grid">
+          <div class="unit unit xs-1 s-1 m-1-2 l-1-2 max-length text-center push">
+            <h2>Offering the best services.</h2>
+            <p>We are an online platform for local design firms that help organize HR files and business finances by allowing users to track and manage current or new employee information.</p>
+          </div>
         </div>
 
-        <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4"
-          <img>
+        <div class="u tena push-2"
+          <h1>...</h1>
         </div>
-      </div>
+      </section>
 
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1-1 l-1-1 max-length text-right island">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
-            <h4>Employee Tracking</h4>
-            <p>Tools that allow management to oversee company and employers information such as: </p>
-            <ul class="unit xs-1 s-1 m-1-2 l-1-2 list-group">
-              <li class="push-0">Job contracts</li>
-              <li class="push-0">Client information</li>
-              <li class="push-0">Scheduling</li>
-              <li class="push-0">Payroll</li>
+      <section class="pad-t-1-2 pad-b-2 push">
+        <div class="grid">
+          <div class="unit pa xs-1 s-1 m-1-1 l-1-1 max-length text-center push">
+            <div class="unit xs-1 s-3-4 m-3-4 l-1-2">
+              <h4>Personal Access</h4>
+              <p>Features that will allow each employee to view their own job progress including:</p>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 max-length">
+              <ul class="unit pa-list xs-1 s-1 m-1-2 l-1-2 list-group">
+                <li class="push-0"><span class="u">✔︎</span> Personal growth</li>
+                <li class="push-0"><span class="u">✔︎</span> Banking information</li>
+                <li class="push-0"><span class="u">✔︎</span> Work availability</li>
+                <li class="push-0"><span class="u">✔︎</span> Vacation requests</li>
+                <li class="push-0"><span class="u">✔︎</span> Benefit tracking</li>
+                <li class="push-0"><span class="u">✔︎</span> Performance reviews</li>
+              </ul>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2"
+              <img>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid">
+          <div class="unit et xs-1 s-1 m-1-1 l-1-1 max-length text-center push-2">
+            <div class="unit xs-1 s-3-4 m-3-4 l-1-2">
+              <h4>Employee Tracking</h4>
+              <p>Tools that allow management to oversee company and employers information such as:</p>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 max-length">
+              <ul class="unit et-list xs-1 s-1 m-1-2 l-1-2 list-group">
+                <li class="push-0">Job contracts <span class="u">✔︎</span></li>
+                <li class="push-0">Client information <span class="u">✔︎</span></li>
+                <li class="push-0">Scheduling <span class="u">✔︎</span></li>
+                <li class="push-0">Payroll <span class="u">✔︎</span></li>
+              </ul>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2"
+              <img>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-middle">
+          <div class="unit xs-1 s-1 m-1 l-1 island text-center">
+            <button>
+              <a class="link-box text-center" href="tour.html">Learn More!</a>
+            </button>
+          </div>
+        </div>
+
+      </section>
+  </main>
+
+  <footer class="push-0">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1 island">
+
+        <div class="grid">
+
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+            <h4 class="push-0">Company.</h4>
+            <ul class="list-group">
+              <li class="push-0">Tour</li>
+              <li class="push-0">Sign up</li>
+              <li class="push-0">Careers</li>
+              <li class="push-0">Contact us</li>
             </ul>
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2"
-            <img>
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+            <h4 class="push-0">Support.</h4>
+            <ul class="list-group">
+              <li class="push-0">Resources</li>
+              <li class="push-0">IT help</li>
+              <li class="push-0">Customer service</li>
+            </ul>
+          </div>
+
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+            <h4 class="push-0">Events.</h4>
+            <ul class="list-group">
+              <li class="push-0">Newsroom</li>
+              <li class="push-0">Memberships</li>
+              <li class="push-0">Get togethers</li>
+            </ul>
+          </div>
+
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+            <h4 class="push-0">Social <span class="u">U.</span></h4>
+            <div class="unit xs-1 s-1 m-1 l-1">
+              <i class="unit xs-1-2 s-1-2 m-1-4 l-1-4 fb-icon">
+                <img src="images/facebook.svg" alt="facebook">
+              </i>
+            </div>
           </div>
         </div>
-
-        <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 center-content-vertical island">
-          <button>
-            <a class="link-box text-center" href="tour.html">Learn More!</a>
-          </button>
-        </div>
       </div>
+    </div>
 
-    </section>
-  </main>
-
-  <div class="grid">
-    <footer class="unit xs-1 s-1 m-1 l-1 island block ist-group-inline">
-
-      <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 block">
-        <h4 class="push-0">Company.</h4>
-        <ul class="list-group">
-          <li class="push-0">Tour</li>
-          <li class="push-0">Sign up</li>
-          <li class="push-0">Careers</li>
-          <li class="push-0">Contact us</li>
-        </ul>
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1 l-1 island text-center">
+        <small class="unit not-italic">© adminu.</small>
       </div>
+    </div>
 
-      <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 block">
-        <h4 class="push-0">Support.</h4>
-        <ul class="list-group">
-          <li class="push-0">Resources</li>
-          <li class="push-0">IT help</li>
-          <li class="push-0">Customer services</li>
-        </ul>
-      </div>
-
-      <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 block">
-        <h4 class="push-0">Social <span class="u">U.</span></h4>
-        <div class="unit xs-1 s-1 m-1 l-1">
-          <i class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          <i class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          <i class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-          <i class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-        </div>
-      </div>
-
-      <div class="unit xs-1-2 s-1-4 m-1-4 l-1-4 center-content-vertical">
-        <small class="not-italic text-center island">© adminu.</small>
-      </div>
-
-    </footer>
-  </div>
+  </footer>
 
 </body>
-
 </html>

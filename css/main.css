@@ -1,6 +1,7 @@
 html {
   font-family: 'Montserrat', sans-serif;
   color: #234148;
+  margin: 0'
 }
 
 body {
@@ -20,18 +21,18 @@ header {
   color: #DBA239;
 }
 
-.img-flex {
-  display: block;
-  width: 130%;
+.banner-img {
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
 }
-
 
 footer {
   background-color: #234148;
   color: #FFF;
 }
 
-.link-box:hover {
+.nav-lb:hover {
   color: #DBA239;
 }
 
@@ -48,13 +49,29 @@ label {
 }
 
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   .logo {
     text-align: left;
   }
 
-  .list-group-inline {
+  .nav-links {
+    text-align: right;
+  }
+
+  .pa {
+    text-align: left;
+  }
+
+  .pa-list {
+    text-align: left;
+  }
+
+  .et {
+    text-align: right;
+  }
+
+  .et-list {
     text-align: right;
   }
 
