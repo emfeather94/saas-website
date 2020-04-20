@@ -21,9 +21,25 @@ header {
   color: #DBA239;
 }
 
-.banner-img {
+.ban-xsmall {
+  display: block;
+}
+
+.ban-small {
+  display: none;
+}
+
+.ban-med {
+  display: none;
+}
+
+.ban-large {
+  display: none;
+}
+
+.banner-img .ban-xsmall{
   overflow: hidden;
-  height: 75vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -36,9 +52,6 @@ footer {
   color: #DBA239;
 }
 
-.btn {
-
-}
 
 .link-box {
   color: #FFFFFF;
@@ -47,6 +60,30 @@ footer {
 label {
   color: #234148;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .ban-xsmall {
+    display: none;
+  }
+
+  .ban-small {
+    display: block;
+  }
+
+  .ban-med {
+    display: none;
+  }
+
+  .ban-large {
+    display: none;
+  }
+
+  .banner-img .ban-small{
+    overflow: hidden;
+    height: 65vh;
+    width: 100%;
+  }
 
 
 @media only screen and (min-width: 38em) {
@@ -77,6 +114,48 @@ label {
 
   .social {
     text-align: right;
+  }
+
+  .ban-xsmall {
+    display: none;
+  }
+
+  .ban-small {
+    display: none;
+  }
+
+  .ban-med {
+    display: block;
+  }
+
+  .ban-large {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .ban-xsmall {
+    display: none;
+  }
+
+  .ban-small {
+    display: none;
+  }
+
+  .ban-med {
+    display: none;
+  }
+
+  .ban-large {
+    display: block;
+  }
+
+  .banner-img .ban-large {
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
   }
 
 }
