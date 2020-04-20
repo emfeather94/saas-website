@@ -1,24 +1,32 @@
 html {
   font-family: 'Montserrat', sans-serif;
   color: #234148;
-  margin: 0'
+  margin: 0;
 }
 
 body {
   margin: 0;
 }
 
-header {
+.nav-home {
+  background-color: #234148;
+}
+
+.nav-tour {
+  background-color: #234148;
+}
+
+.nav-join {
   background-color: #234148;
 }
 
 .logo {
   font-family: 'Pacifico', cursive;
-  color: #00A69B;
+  color: #00a69b;
 }
 
 .u {
-  color: #DBA239;
+  color: #dba239;
 }
 
 .ban-xsmall {
@@ -48,13 +56,18 @@ footer {
   color: #FFF;
 }
 
+.nav-lb {
+  border: 2px solid #234148;
+}
+
 .nav-lb:hover {
-  color: #DBA239;
+  color: #dba239;
+  border: 2px solid #dba239;
 }
 
 
 .link-box {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 label {
