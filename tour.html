@@ -12,6 +12,11 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
+
   <header class="push-2 pad-b-2" role="banner">
 
     <div class="nav-home grid grid-middle island">
@@ -20,7 +25,7 @@
         <p class="unit zetta push-none">adminu.</p>
       </div>
 
-      <nav class="unit xs-1 s-1 m-3-4 l-3-4 nav-links text-center" role="navigation">
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4 nav-links text-center" role="navigation" id="nav" tabindex="0">
         <ul class="unit nav-list push-none list-group-inline pad-t-1-2 pad-b-1-2">
           <li><a class="unit nav-lb link-box gutter-1-2" href="index.html">Home</a></li>
           <li><a class="unit nav-lb link-box gutter-1-2" href="tour.html">Tour</a></li>
@@ -39,7 +44,9 @@
         </div>
 
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
-          <img class="img-flex valign-middle" src="images/tour-pic.jpg" alt="tour-banner-img">
+          <div class="embed embed-3by2">
+            <img class="img-flex valign-middle embed-item" src="images/tour-pic.jpg" alt="tour-banner-img">
+          </div>
         </div>
 
       </div>
@@ -47,7 +54,8 @@
 
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
+
     <section class="grid">
 
       <div class="unit xs-1 s-1 m-3-4 l-1 max-length text-center gutter push-2 employees">
@@ -61,9 +69,10 @@
       </div>
     </section>
 
-    <section class="pad-t-2">
-      <div class="island">
-        <table class="table-wrapper push-0 list-group-inline scrollable">
+    <section>
+      <div class="island table-wrapper scrollable">
+
+        <table class="table-wrapper push-0 list-group-inline">
           <caption class="not-italic giga bold push-1-4">What Our Plans Offer.</caption>
           <thead>
             <tr class="kilo">
@@ -116,14 +125,13 @@
 
           </tbody>
         </table>
+
       </div>
     </section>
 
     <div class="grid grid-middle text-center push-2 pad-t">
       <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
-        <div class="btn">
-          <a class="link-box text-center" href="sign-up.html">Choose a Plan</a>
-        </div>
+        <button class="btn" type="submit">Choose a Plan</button>
       </div>
     </div>
 
