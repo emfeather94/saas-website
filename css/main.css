@@ -1,10 +1,6 @@
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #234148;
-  margin: 0;
-}
-
-body {
   margin: 0;
 }
 
@@ -30,12 +26,12 @@ body {
 }
 
 .logo {
-  font-family: 'Pacifico', cursive;
+  font-family: Pacifico, cursive;
   color: #00a69b;
 }
 
 .u {
-  color: #0080A3;
+  color: #0080a3;
 }
 
 .ban-xsmall {
@@ -66,7 +62,7 @@ body {
 
 footer {
   background-color: #234148;
-  color: #FFF;
+  color: #fff;
 }
 
 .nav-lb {
@@ -79,7 +75,7 @@ footer {
 }
 
 .link-box {
-  color: #ffffff;
+  color: #fff;
 }
 
 label {
